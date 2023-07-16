@@ -11,6 +11,7 @@
 		F1458D662A63F1F400860CD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1458D652A63F1F400860CD1 /* ContentView.swift */; };
 		F1458D682A63F1F600860CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1458D672A63F1F600860CD1 /* Assets.xcassets */; };
 		F1458D6B2A63F1F600860CD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1458D6A2A63F1F600860CD1 /* Preview Assets.xcassets */; };
+		F1458D722A63FF1300860CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1458D712A63FF1300860CD1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F1458D652A63F1F400860CD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1458D672A63F1F600860CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1458D6A2A63F1F600860CD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1458D712A63FF1300860CD1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				F1458D652A63F1F400860CD1 /* ContentView.swift */,
 				F1458D672A63F1F600860CD1 /* Assets.xcassets */,
 				F1458D692A63F1F600860CD1 /* Preview Content */,
+				F1458D712A63FF1300860CD1 /* LaunchScreen.storyboard */,
 			);
 			path = Avocado;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1458D722A63FF1300860CD1 /* LaunchScreen.storyboard in Resources */,
 				F1458D6B2A63F1F600860CD1 /* Preview Assets.xcassets in Resources */,
 				F1458D682A63F1F600860CD1 /* Assets.xcassets in Resources */,
 			);

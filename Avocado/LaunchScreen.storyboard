@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="y2K-M6-Ags">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avocado" translatesAutoresizingMaskIntoConstraints="NO" id="ESZ-fN-Kqe">
+                                <rect key="frame" x="76.666666666666686" y="271" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Yvt-cU-1YO"/>
+                                    <constraint firstAttribute="height" constant="240" id="yqi-Qq-wfB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AVOCADOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDc-E2-VNC">
+                                <rect key="frame" x="85.666666666666686" y="523" width="222" height="52"/>
+                                <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="42"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PDc-E2-VNC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0QA-Ns-S9x"/>
+                            <constraint firstItem="PDc-E2-VNC" firstAttribute="top" secondItem="ESZ-fN-Kqe" secondAttribute="bottom" constant="12" id="6AG-vP-UZ6"/>
+                            <constraint firstAttribute="trailing" secondItem="y2K-M6-Ags" secondAttribute="trailing" id="Eh7-Et-HSy"/>
+                            <constraint firstItem="y2K-M6-Ags" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="O5w-u9-72c"/>
+                            <constraint firstItem="ESZ-fN-Kqe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="W9Z-4X-LsX"/>
+                            <constraint firstItem="y2K-M6-Ags" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="afW-KB-nsS"/>
+                            <constraint firstItem="ESZ-fN-Kqe" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-35" id="c4y-aY-ZdF"/>
+                            <constraint firstAttribute="bottom" secondItem="y2K-M6-Ags" secondAttribute="bottom" id="ecJ-Tv-ekC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="avocado" width="883" height="862"/>
+        <image name="background" width="1194" height="834"/>
+    </resources>
+</document>
