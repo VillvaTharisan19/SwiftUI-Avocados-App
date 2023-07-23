@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct AppView: View {
+    
+    init() {
+        UITabBar.appearance().backgroundColor = .lightGray
+    }
+    
     var body: some View {
         TabView {
             
