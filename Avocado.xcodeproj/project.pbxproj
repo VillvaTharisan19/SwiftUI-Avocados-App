@@ -12,16 +12,13 @@
 		F1458D682A63F1F600860CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1458D672A63F1F600860CD1 /* Assets.xcassets */; };
 		F1458D6B2A63F1F600860CD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1458D6A2A63F1F600860CD1 /* Preview Assets.xcassets */; };
 		F1458D722A63FF1300860CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1458D712A63FF1300860CD1 /* LaunchScreen.storyboard */; };
-		F1458D792A64013200860CD1 /* Avocados.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1458D742A64013000860CD1 /* Avocados.txt */; };
-		F1458D7A2A64013200860CD1 /* FactData.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1458D752A64013000860CD1 /* FactData.txt */; };
-		F1458D7B2A64013200860CD1 /* HeaderData.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1458D762A64013000860CD1 /* HeaderData.txt */; };
-		F1458D7C2A64013200860CD1 /* RecipeData.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1458D772A64013100860CD1 /* RecipeData.txt */; };
-		F1458D7D2A64013200860CD1 /* RipeningData.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1458D782A64013200860CD1 /* RipeningData.txt */; };
 		F1458D812A6401F600860CD1 /* AvocadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1458D802A6401F600860CD1 /* AvocadoView.swift */; };
 		F1458D832A64021400860CD1 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1458D822A64021400860CD1 /* RipeningStagesView.swift */; };
 		F1458D852A64022B00860CD1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1458D842A64022B00860CD1 /* SettingsView.swift */; };
 		F1458D872A64023B00860CD1 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1458D862A64023B00860CD1 /* AppView.swift */; };
 		F18D7D122A6D0C7400A0AC5C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18D7D112A6D0C7400A0AC5C /* HeaderView.swift */; };
+		F18D7D142A6D109900A0AC5C /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18D7D132A6D109900A0AC5C /* HeaderModel.swift */; };
+		F18D7D162A6D110C00A0AC5C /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18D7D152A6D110C00A0AC5C /* HeaderData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,16 +28,13 @@
 		F1458D672A63F1F600860CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1458D6A2A63F1F600860CD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1458D712A63FF1300860CD1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F1458D742A64013000860CD1 /* Avocados.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Avocados.txt; sourceTree = "<group>"; };
-		F1458D752A64013000860CD1 /* FactData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FactData.txt; sourceTree = "<group>"; };
-		F1458D762A64013000860CD1 /* HeaderData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HeaderData.txt; sourceTree = "<group>"; };
-		F1458D772A64013100860CD1 /* RecipeData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RecipeData.txt; sourceTree = "<group>"; };
-		F1458D782A64013200860CD1 /* RipeningData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RipeningData.txt; sourceTree = "<group>"; };
 		F1458D802A6401F600860CD1 /* AvocadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoView.swift; sourceTree = "<group>"; };
 		F1458D822A64021400860CD1 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		F1458D842A64022B00860CD1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F1458D862A64023B00860CD1 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		F18D7D112A6D0C7400A0AC5C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F18D7D132A6D109900A0AC5C /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		F18D7D152A6D110C00A0AC5C /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +89,7 @@
 		F1458D732A64012000860CD1 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				F1458D742A64013000860CD1 /* Avocados.txt */,
-				F1458D752A64013000860CD1 /* FactData.txt */,
-				F1458D762A64013000860CD1 /* HeaderData.txt */,
-				F1458D772A64013100860CD1 /* RecipeData.txt */,
-				F1458D782A64013200860CD1 /* RipeningData.txt */,
+				F18D7D152A6D110C00A0AC5C /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -107,6 +97,7 @@
 		F1458D7E2A64014000860CD1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F18D7D132A6D109900A0AC5C /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,12 +175,7 @@
 			files = (
 				F1458D722A63FF1300860CD1 /* LaunchScreen.storyboard in Resources */,
 				F1458D6B2A63F1F600860CD1 /* Preview Assets.xcassets in Resources */,
-				F1458D7C2A64013200860CD1 /* RecipeData.txt in Resources */,
-				F1458D7A2A64013200860CD1 /* FactData.txt in Resources */,
-				F1458D7D2A64013200860CD1 /* RipeningData.txt in Resources */,
-				F1458D792A64013200860CD1 /* Avocados.txt in Resources */,
 				F1458D682A63F1F600860CD1 /* Assets.xcassets in Resources */,
-				F1458D7B2A64013200860CD1 /* HeaderData.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +192,8 @@
 				F1458D832A64021400860CD1 /* RipeningStagesView.swift in Sources */,
 				F1458D812A6401F600860CD1 /* AvocadoView.swift in Sources */,
 				F1458D642A63F1F400860CD1 /* AvocadoApp.swift in Sources */,
+				F18D7D142A6D109900A0AC5C /* HeaderModel.swift in Sources */,
+				F18D7D162A6D110C00A0AC5C /* HeaderData.swift in Sources */,
 				F18D7D122A6D0C7400A0AC5C /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
