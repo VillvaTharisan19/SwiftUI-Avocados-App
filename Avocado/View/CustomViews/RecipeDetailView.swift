@@ -55,7 +55,7 @@ struct RecipeDetailView: View {
                         .modifier(TitleModifier())
                     
                     ForEach(recipe.instructions, id: \.self) { item in
-                        VStack(alignment: .leading, spacing: 5) {
+                        VStack(alignment: .center, spacing: 5) {
                             Image(systemName: "chevron.down.circle")
                                 .resizable()
                                 .frame(width: 42, height: 42, alignment: .center)
