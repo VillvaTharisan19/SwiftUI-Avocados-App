@@ -23,6 +23,9 @@
 		F18D7D122A6D0C7400A0AC5C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18D7D112A6D0C7400A0AC5C /* HeaderView.swift */; };
 		F18D7D142A6D109900A0AC5C /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18D7D132A6D109900A0AC5C /* HeaderModel.swift */; };
 		F18D7D162A6D110C00A0AC5C /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18D7D152A6D110C00A0AC5C /* HeaderData.swift */; };
+		F1F0D8402A7E4278004C05B7 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F0D83F2A7E4278004C05B7 /* RecipeModel.swift */; };
+		F1F0D8422A7E42A0004C05B7 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F0D8412A7E42A0004C05B7 /* RecipeData.swift */; };
+		F1F0D8442A7E4429004C05B7 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F0D8432A7E4429004C05B7 /* RecipeCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		F18D7D112A6D0C7400A0AC5C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		F18D7D132A6D109900A0AC5C /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		F18D7D152A6D110C00A0AC5C /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		F1F0D83F2A7E4278004C05B7 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		F1F0D8412A7E42A0004C05B7 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		F1F0D8432A7E4429004C05B7 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 			children = (
 				F18D7D152A6D110C00A0AC5C /* HeaderData.swift */,
 				F165C9B32A76816700C25B6B /* FactData.swift */,
+				F1F0D8412A7E42A0004C05B7 /* RecipeData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -108,6 +115,7 @@
 			children = (
 				F18D7D132A6D109900A0AC5C /* HeaderModel.swift */,
 				F165C9B12A76815300C25B6B /* FactModel.swift */,
+				F1F0D83F2A7E4278004C05B7 /* RecipeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,6 +147,7 @@
 				F18D7D112A6D0C7400A0AC5C /* HeaderView.swift */,
 				F165C9AC2A7679A300C25B6B /* DishesView.swift */,
 				F165C9AF2A767EA300C25B6B /* FactsView.swift */,
+				F1F0D8432A7E4429004C05B7 /* RecipeCardView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -221,10 +230,13 @@
 				F1458D812A6401F600860CD1 /* AvocadoView.swift in Sources */,
 				F1458D642A63F1F400860CD1 /* AvocadoApp.swift in Sources */,
 				F18D7D142A6D109900A0AC5C /* HeaderModel.swift in Sources */,
+				F1F0D8402A7E4278004C05B7 /* RecipeModel.swift in Sources */,
 				F18D7D162A6D110C00A0AC5C /* HeaderData.swift in Sources */,
 				F165C9AD2A7679A300C25B6B /* DishesView.swift in Sources */,
 				F165C9B22A76815300C25B6B /* FactModel.swift in Sources */,
 				F165C9B02A767EA300C25B6B /* FactsView.swift in Sources */,
+				F1F0D8442A7E4429004C05B7 /* RecipeCardView.swift in Sources */,
+				F1F0D8422A7E42A0004C05B7 /* RecipeData.swift in Sources */,
 				F18D7D122A6D0C7400A0AC5C /* HeaderView.swift in Sources */,
 				F165C9B42A76816700C25B6B /* FactData.swift in Sources */,
 			);
